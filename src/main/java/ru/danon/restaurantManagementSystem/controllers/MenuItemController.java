@@ -19,7 +19,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/menu-items")
+@RequestMapping("/menu-items")
 public class MenuItemController {
     private final MenuItemService menuItemService;
 
