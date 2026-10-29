@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/menu-items"
+method: GET
+order: 1000

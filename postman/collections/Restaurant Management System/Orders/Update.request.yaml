@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/api/orders/{{id}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "status": "NEW",
+      "userId": 1
+    }
+order: 4000

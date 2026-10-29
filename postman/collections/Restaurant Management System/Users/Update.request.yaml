@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{baseUrl}}/api/users/{{id}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "username": "waiter1",
+      "email": "waiter1@mail.ru",
+      "password": "1234",
+      "role": "WAITER"
+    }
+order: 4000
